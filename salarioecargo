@@ -1,5 +1,10 @@
-salario = float(input())
-cargo = input()
+print("""1. Programador de Sistemas
+2. Analista de Sistemas
+3. Analista de Banco de Dados""")
+
+
+salario = float(input("Digite o seu salário: "))
+cargo = input("Digite o seu cargo: ")
 
 if cargo == "Programador de Sistemas":
     print(salario * 1.30)
